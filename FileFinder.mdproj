@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A2306C8-C5D5-41A3-B7BD-5D50796B7927}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="FileFinder1.0">
+          <Builder targetFile="console_project1\console_project1.zip" platform="Windows" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="console_project1\console_project1.csproj" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>
