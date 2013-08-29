@@ -29,7 +29,7 @@ namespace console_project1
 					foreach (string d in Directory.GetDirectories(folderPath)) {
 						foreach (string f in Directory.GetFiles(d, searchPattern)){
 							FileInfo fileInfo = new FileInfo(f);
-							string info =  f + ", " + fileInfo.Length/1024 + " MB";
+							string info =  f + ", " + fileInfo.Length/1048576 + " MB";
 							fileList.Add (info);
 
 						}//recursive find files
